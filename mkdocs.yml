@@ -1,96 +1,16 @@
-site_name: Daksh Vanshaj | Data Scientist & MLOps Engineer
-site_description: I help businesses turn data into profit-driven decisions.
+site_name: Daksh Vanshaj
+site_description: Daksh Vanshaj
 site_author: Daksh Vanshaj
 site_url: https://dakshvanshaj.com/
 
 theme:
   name: material
-  logo: assets/logo.png
-  favicon: assets/logo.png
-
   palette:
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: teal
-      accent: cyan
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-        
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: teal
-      accent: cyan
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
+    scheme: default
+    primary: teal
+    accent: teal
 
-
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.top
-    - navigation.tracking
-    - content.tabs.link
-    - content.code.annotate
-    - content.code.copy
-    - search.suggest
-    - search.highlight
-    - search.share
-
-extra_css:
-  - stylesheets/extra.css
-extra_javascript:
-  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
-
-markdown_extensions:
-  - admonition
-  - attr_list
-  - md_in_html
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.tabbed:
-      alternate_style: true
-  - tables
-  - toc:
-      permalink: true
-
-exclude_docs: |
-  case_studies/source/
+plugins: []
 
 nav:
   - Home: index.md
-  - How I Help: how_i_help.md
-  - Proof:
-      - Overview: case_studies/index.md
-      - "StoreCast: Retail Forecasting": case_studies/storecast.md
-      - "COVID-19 Decision Intelligence": case_studies/covid19.md
-      - "Flights Price Prediction MLOps": case_studies/flights.md
-  - About: about.md
-  - Contact: contact.md
-
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/dakshvanshaj
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/daksh-vanshaj/
-    - icon: fontawesome/solid/calendar
-      link: https://cal.com/daksh-vanshaj
-    - icon: fontawesome/solid/envelope
-      link: mailto:daksh@dakshvanshaj.com
