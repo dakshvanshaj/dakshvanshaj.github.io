@@ -1,0 +1,2 @@
+- [Brand voice & design rules](brand-voice-and-design-rules.md) — copy, visual, and honesty rules proven while building the actual template sites this portfolio links to
+- [Homepage design & location rules](homepage-design-and-location-rules.md) — confirmed design world (quiet natural paper), typography (Literata + Figtree), location rule ("India" only), and anti-slop guidelines
