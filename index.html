@@ -1,304 +1,1343 @@
-
-<!doctype html>
-<html lang="en" class="no-js">
-  <head>
-    
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-      
-        <meta name="description" content="Daksh Vanshaj">
-      
-      
-        <meta name="author" content="Daksh Vanshaj">
-      
-      
-        <link rel="canonical" href="https://dakshvanshaj.com/">
-      
-      
-      
-      
-        
-      
-      
-      <link rel="icon" href="assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
-    
-    
-      
-        <title>Daksh Vanshaj</title>
-      
-    
-    
-      <link rel="stylesheet" href="assets/stylesheets/main.ec1eaa64.min.css">
-      
-        
-        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
-      
-      
-
-
-    
-    
-      
-    
-    
-      
-        
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-      
-    
-    
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-    
-      
-
-    
-    
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daksh Vanshaj · AI Automation &amp; Workflow Engineer</title>
+  <meta name="description" content="I turn operational pain like messy spreadsheets, broken CRM handoffs, and manual ops busywork into reliable automated systems using Claude Code, n8n, Python, and SQL.">
+  <meta name="author" content="Daksh Vanshaj">
+  <meta name="robots" content="index, follow">
   
+  <!-- Open Graph & Social Cards -->
+  <meta property="og:title" content="Daksh Vanshaj · AI Automation &amp; Workflow Engineer">
+  <meta property="og:description" content="I turn operational pain like messy spreadsheets, broken CRM handoffs, and manual ops busywork into reliable automated systems using Claude Code, n8n, Python, and SQL.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dakshvanshaj.com/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Daksh Vanshaj · AI Automation &amp; Workflow Engineer">
+  <meta name="twitter:description" content="I turn operational pain into reliable automated systems using Claude Code, n8n, Python, and SQL.">
   
-    
-    
-    
-    
-    
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="teal">
-  
-    
-    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
-    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
-    <label class="md-overlay" for="__drawer"></label>
-    <div data-md-component="skip">
-      
-        
-        <a href="#daksh-vanshaj" class="md-skip">
-          Skip to content
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400;1,7..72,500&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-ground: #F8FAFC;
+      --bg-surface: #F1F5F9;
+      --bg-card: #FFFFFF;
+      --border-subtle: #E2E8F0;
+      --border-strong: #CBD5E1;
+      --text-primary: #0F172A;
+      --text-secondary: #334155;
+      --text-tertiary: #475569;
+      --accent-terracotta: #C2410C;
+      --accent-hover: #9A3412;
+      --accent-action: #0F172A;
+      --accent-action-text: #F8FAFC;
+      --selection-bg: #E2E8F0;
+      --selection-text: #0F172A;
+      --font-display: 'Literata', Georgia, serif;
+      --font-sans: 'Figtree', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    ::selection {
+      background-color: var(--selection-bg);
+      color: var(--selection-text);
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    body {
+      background-color: var(--bg-ground);
+      color: var(--text-primary);
+      font-family: var(--font-sans);
+      font-size: 16px;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    a {
+      color: inherit;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+
+    .font-serif {
+      font-family: var(--font-display);
+    }
+
+    /* Container constraints */
+    .container {
+      max-width: 52rem; /* 832px */
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+
+    /* Masthead */
+    .site-header {
+      padding-top: 2.5rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--border-subtle);
+      margin-bottom: 3.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .brand-name {
+      font-size: 1.125rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+
+    .brand-location {
+      font-size: 0.8125rem;
+      color: var(--text-tertiary);
+      margin-top: 0.125rem;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1.5rem;
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+      list-style: none;
+      align-items: baseline;
+      flex-wrap: wrap;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      transition: color 0.15s ease;
+    }
+
+    .nav-links a:hover {
+      color: var(--text-primary);
+    }
+
+    .nav-links .resume-link {
+      color: var(--accent-terracotta);
+      font-weight: 600;
+    }
+
+    .nav-links .resume-link:hover {
+      color: var(--accent-hover);
+      text-decoration: underline;
+    }
+
+    /* Section Rhythm */
+    section {
+      margin-bottom: 4.5rem;
+    }
+
+    .section-header {
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid var(--border-subtle);
+      margin-bottom: 2rem;
+    }
+
+    .section-title {
+      font-size: 0.8125rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-tertiary);
+    }
+
+    /* Hero Section */
+    .hero-intro-label {
+      font-size: 0.8125rem;
+      font-weight: 600;
+      color: var(--accent-terracotta);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 0.875rem;
+    }
+
+    .hero-lead {
+      font-size: 2.125rem;
+      line-height: 1.25;
+      font-weight: 400;
+      color: var(--text-primary);
+      margin-bottom: 1.25rem;
+      letter-spacing: -0.015em;
+    }
+
+    @media (min-width: 640px) {
+      .hero-lead {
+        font-size: 2.625rem;
+      }
+    }
+
+    .hero-body {
+      font-size: 1.0625rem;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      max-width: 44rem;
+      margin-bottom: 1.75rem;
+    }
+
+    .hero-contact-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .hero-status {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.8125rem;
+      color: var(--text-tertiary);
+    }
+
+    .status-indicator {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background-color: #2E7D32;
+      display: inline-block;
+    }
+
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.625rem 1.125rem;
+      background-color: var(--accent-action);
+      color: var(--accent-action-text);
+      font-weight: 500;
+      font-size: 0.875rem;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.15s ease;
+    }
+
+    .btn-primary:hover {
+      background-color: #1E293B;
+    }
+
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.625rem 1.125rem;
+      border: 1px solid var(--border-subtle);
+      color: var(--text-primary);
+      font-size: 0.875rem;
+      text-decoration: none;
+      border-radius: 4px;
+      background-color: transparent;
+      transition: border-color 0.15s ease, background-color 0.15s ease;
+    }
+
+    .btn-secondary:hover {
+      border-color: var(--text-primary);
+      background-color: var(--bg-surface);
+    }
+
+    /* Project Cards (Automations) */
+    .project-entry {
+      padding-top: 2rem;
+      padding-bottom: 2.25rem;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .project-entry:last-child {
+      border-bottom: none;
+    }
+
+    .project-header-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .project-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      color: var(--text-primary);
+    }
+
+    .project-title a {
+      text-decoration: none;
+      transition: color 0.15s ease;
+    }
+
+    .project-title a:hover {
+      color: var(--accent-terracotta);
+    }
+
+    .project-category {
+      font-size: 0.8125rem;
+      color: var(--text-tertiary);
+    }
+
+    .project-description {
+      font-size: 0.9375rem;
+      color: var(--text-secondary);
+      line-height: 1.65;
+      margin-bottom: 1rem;
+      max-width: 44rem;
+    }
+
+    /* Flow Strip with Real Logos */
+    .flow-strip {
+      background-color: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 6px;
+      padding: 0.75rem 1rem;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.625rem;
+      font-size: 0.8125rem;
+      color: var(--text-primary);
+    }
+
+    .flow-label {
+      font-size: 0.75rem;
+      color: var(--text-tertiary);
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .flow-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.375rem;
+      padding: 0.25rem 0.5rem;
+      background-color: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: 4px;
+      font-weight: 500;
+      font-size: 0.8125rem;
+    }
+
+    .flow-arrow {
+      color: var(--border-strong);
+      font-size: 0.875rem;
+    }
+
+    .flow-human-gate {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.375rem;
+      padding: 0.25rem 0.5rem;
+      background-color: #FFF7ED;
+      border: 1px solid #FED7AA;
+      color: var(--accent-terracotta);
+      font-weight: 600;
+      border-radius: 4px;
+      font-size: 0.8125rem;
+    }
+
+    .project-links {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1.25rem;
+      font-size: 0.8125rem;
+    }
+
+    .project-links .primary-link {
+      color: var(--accent-terracotta);
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .project-links .primary-link:hover {
+      text-decoration: underline;
+    }
+
+    .project-links .repo-link {
+      color: var(--text-secondary);
+      text-decoration: none;
+    }
+
+    .project-links .repo-link:hover {
+      color: var(--text-primary);
+    }
+
+    .project-links .status-note {
+      color: var(--text-tertiary);
+    }
+
+    /* Flagship Showcase: Narada OS */
+    .flagship-box {
+      background-color: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    @media (min-width: 640px) {
+      .flagship-box {
+        padding: 2.5rem;
+      }
+    }
+
+    .flagship-title {
+      font-size: 1.75rem;
+      font-weight: 500;
+      color: var(--text-primary);
+      margin-bottom: 0.875rem;
+      line-height: 1.3;
+    }
+
+    .flagship-desc {
+      font-size: 0.9375rem;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      margin-bottom: 1.75rem;
+      max-width: 46rem;
+    }
+
+    /* Narada Gallery Tabs */
+    .gallery-tab-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .gallery-tab-btn {
+      padding: 0.4rem 0.75rem;
+      font-size: 0.8125rem;
+      font-family: inherit;
+      border: 1px solid var(--border-subtle);
+      background-color: var(--bg-ground);
+      color: var(--text-secondary);
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .gallery-tab-btn:hover {
+      color: var(--text-primary);
+      border-color: var(--border-strong);
+    }
+
+    .gallery-tab-btn.active {
+      background-color: var(--text-primary);
+      color: var(--bg-ground);
+      border-color: var(--text-primary);
+      font-weight: 500;
+    }
+
+    .gallery-viewport {
+      border: 1px solid var(--border-subtle);
+      border-radius: 6px;
+      overflow: hidden;
+      background-color: var(--bg-surface);
+      margin-bottom: 0.75rem;
+    }
+
+    .gallery-viewport img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: opacity 0.2s ease;
+    }
+
+    .gallery-caption {
+      font-size: 0.8125rem;
+      color: var(--text-tertiary);
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    /* Video Embed Box */
+    .video-box {
+      margin-top: 1.75rem;
+      padding-top: 1.75rem;
+      border-top: 1px solid var(--border-subtle);
+    }
+
+    .video-title {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .video-container {
+      position: relative;
+      border-radius: 6px;
+      overflow: hidden;
+      border: 1px solid var(--border-subtle);
+      background-color: var(--bg-surface);
+      padding: 4px;
+    }
+
+    .video-container video {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 4px;
+    }
+
+    /* Grid for Technical Case Studies */
+    .case-studies-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    @media (min-width: 640px) {
+      .case-studies-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .case-study-card {
+      background-color: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: 6px;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .case-study-title {
+      font-size: 1.125rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 0.625rem;
+    }
+
+    .case-study-desc {
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      margin-bottom: 1.25rem;
+    }
+
+    /* Services Section */
+    .services-list {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    @media (min-width: 640px) {
+      .services-list {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .service-item {
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--border-subtle);
+    }
+
+    .service-heading {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 0.5rem;
+    }
+
+    .service-text {
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    /* About Section */
+    .about-layout {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2.5rem;
+      align-items: start;
+    }
+
+    @media (min-width: 768px) {
+      .about-layout {
+        grid-template-columns: 7fr 5fr;
+      }
+    }
+
+    .about-text p {
+      font-size: 0.9375rem;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      margin-bottom: 1rem;
+    }
+
+    .skills-strip {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 1.5rem;
+    }
+
+    .skill-tag {
+      padding: 0.25rem 0.625rem;
+      background-color: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 4px;
+      font-size: 0.8125rem;
+      color: var(--text-secondary);
+      font-weight: 500;
+    }
+
+    .about-aside {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .connect-card {
+      background-color: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: 6px;
+      padding: 1.25rem;
+    }
+
+    .connect-heading {
+      font-size: 0.8125rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .connect-links-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .connect-link-item {
+      display: flex;
+      align-items: center;
+      gap: 0.875rem;
+      padding: 0.75rem 0.875rem;
+      border: 1px solid var(--border-subtle);
+      border-radius: 4px;
+      text-decoration: none;
+      background-color: var(--bg-ground);
+      color: var(--text-primary);
+      transition: border-color 0.15s ease, background-color 0.15s ease, transform 0.15s ease;
+    }
+
+    .connect-link-item:hover {
+      border-color: var(--text-primary);
+      background-color: var(--bg-surface);
+      transform: translateY(-1px);
+    }
+
+    .connect-link-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      color: var(--text-primary);
+    }
+
+    .connect-link-content {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      min-width: 0;
+    }
+
+    .connect-link-title {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      line-height: 1.3;
+    }
+
+    .connect-link-subtitle {
+      font-size: 0.75rem;
+      color: var(--text-secondary);
+      line-height: 1.3;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .connect-link-arrow {
+      color: var(--text-tertiary);
+      font-size: 0.875rem;
+      flex-shrink: 0;
+      transition: transform 0.15s ease, color 0.15s ease;
+    }
+
+    .connect-link-item:hover .connect-link-arrow {
+      color: var(--accent-terracotta);
+      transform: translate(2px, -2px);
+    }
+
+    .credentials-box {
+      background-color: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: 6px;
+      padding: 1.25rem;
+    }
+
+    .credentials-heading {
+      font-size: 0.8125rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .credential-item {
+      margin-bottom: 0.75rem;
+    }
+
+    .credential-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .credential-degree {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+
+    .credential-school {
+      font-size: 0.8125rem;
+      color: var(--text-tertiary);
+    }
+
+    /* Contact Section */
+    .contact-box {
+      background-color: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 2.25rem;
+    }
+
+    .contact-title {
+      font-size: 1.625rem;
+      font-weight: 500;
+      color: var(--text-primary);
+      margin-bottom: 0.75rem;
+    }
+
+    .contact-desc {
+      font-size: 0.9375rem;
+      color: var(--text-secondary);
+      line-height: 1.65;
+      max-width: 42rem;
+      margin-bottom: 1.75rem;
+    }
+
+    .contact-actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .contact-meta {
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--border-subtle);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      font-size: 0.8125rem;
+      color: var(--text-tertiary);
+    }
+
+    /* Footer */
+    .site-footer {
+      padding-top: 2.5rem;
+      padding-bottom: 4rem;
+      border-top: 1px solid var(--border-subtle);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      font-size: 0.8125rem;
+      color: var(--text-tertiary);
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 1.5rem;
+      list-style: none;
+    }
+
+    .footer-links a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      transition: color 0.15s ease;
+    }
+
+    .footer-links a:hover {
+      color: var(--text-primary);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Header / Masthead -->
+    <header class="site-header">
+      <div>
+        <a href="/" class="brand-name">Daksh Vanshaj</a>
+        <div class="brand-location">India</div>
+      </div>
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#work">Work</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="assets/resume/Daksh_Vanshaj_AI_Automation_Engineer.pdf" class="resume-link" download>Resume (PDF)</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- First Viewport / Hero Section with Immediate Contact -->
+    <section class="hero-section">
+      <div class="hero-intro-label">AI Automation &amp; Workflow Engineer · India</div>
+      <h1 class="hero-lead font-serif">
+        I turn messy spreadsheets, broken CRM handoffs, and manual ops busywork into reliable automated systems.
+      </h1>
+      <p class="hero-body">
+        Built end-to-end with Claude Code, n8n, Python, and SQL. Every workflow includes input validation, error handling, and a human approval checkpoint before anything actually sends or updates.
+      </p>
+
+      <div class="hero-contact-bar">
+        <a href="mailto:davevanshaj55646@gmail.com" class="btn-primary" aria-label="Email Daksh Vanshaj">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          davevanshaj55646@gmail.com
         </a>
-      
-    </div>
-    <div data-md-component="announce">
-      
-    </div>
-    
-    
-      
+        <a href="https://linkedin.com/in/daksh-vanshaj" target="_blank" rel="noopener" class="btn-secondary">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          LinkedIn ↗
+        </a>
+        <a href="https://github.com/dakshvanshaj" target="_blank" rel="noopener" class="btn-secondary">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          GitHub ↗
+        </a>
+        <a href="assets/resume/Daksh_Vanshaj_AI_Automation_Engineer.pdf" download class="btn-secondary">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+          Resume (PDF)
+        </a>
+      </div>
+      <div class="hero-status">
+        <span class="status-indicator"></span> Available for freelance contracts &amp; full-time engineering roles
+      </div>
+    </section>
 
-  
+    <!-- Automations Section -->
+    <section id="work">
+      <div class="section-header">
+        <h2 class="section-title">Automations</h2>
+      </div>
 
-<header class="md-header md-header--shadow" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Daksh Vanshaj" class="md-header__button md-logo" aria-label="Daksh Vanshaj" data-md-component="logo">
-      
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
-
-    </a>
-    <label class="md-header__button md-icon" for="__drawer">
-      
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
-    </label>
-    <div class="md-header__title" data-md-component="header-title">
-      <div class="md-header__ellipsis">
-        <div class="md-header__topic">
-          <span class="md-ellipsis">
-            Daksh Vanshaj
-          </span>
+      <!-- 1. CloseLoop -->
+      <article class="project-entry">
+        <div class="project-header-row">
+          <h3 class="project-title">
+            <a href="https://dakshvanshaj.com/CloseLoop/" target="_blank" rel="noopener">CloseLoop: Never let a closed deal go cold</a>
+          </h3>
+          <span class="project-category">CRM to ops follow-up</span>
         </div>
-        <div class="md-header__topic" data-md-component="header-topic">
-          <span class="md-ellipsis">
-            
-              Home
-            
+        <p class="project-description">
+          When a deal closes in your CRM, the account owner automatically receives an onboarding task with a business-day-aware follow-up date, alerts via WhatsApp or email, and a weekly digest of overdue items.
+        </p>
+
+        <!-- Traced 3-Tier Flow with Official Logos -->
+        <div class="flow-strip">
+          <span class="flow-label">Trigger</span>
+          <span class="flow-badge">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="#FF7A59" aria-hidden="true"><path d="M18.164 7.93V5.084a2.198 2.198 0 001.267-1.978v-.067A2.2 2.2 0 0017.238.845h-.067a2.2 2.2 0 00-2.193 2.193v.067a2.196 2.196 0 001.252 1.973l.013.006v2.852a6.22 6.22 0 00-2.969 1.31l.012-.01-7.828-6.095A2.497 2.497 0 104.3 4.656l-.012.006 7.697 5.991a6.176 6.176 0 00-1.038 3.446c0 1.343.425 2.588 1.147 3.607l-.013-.02-2.342 2.343a1.968 1.968 0 00-.58-.095h-.002a2.033 2.033 0 102.033 2.033 1.978 1.978 0 00-.1-.595l.005.014 2.317-2.317a6.247 6.247 0 104.782-11.134l-.036-.005zm-.964 9.378a3.206 3.206 0 113.215-3.207v.002a3.206 3.206 0 01-3.207 3.207z"/></svg>
+            HubSpot
+          </span>
+          <span class="flow-badge">Pipedrive / Zoho</span>
+          <span class="flow-arrow">→</span>
+          <span class="flow-label">Logic</span>
+          <span class="flow-badge">Business-day math &amp; dedup</span>
+          <span class="flow-arrow">→</span>
+          <span class="flow-human-gate">Human review gate</span>
+          <span class="flow-arrow">→</span>
+          <span class="flow-label">Alert</span>
+          <span class="flow-badge">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="#25D366" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+            WhatsApp
+          </span>
+          <span class="flow-badge">Email</span>
+        </div>
+
+        <div class="project-links">
+          <a href="https://dakshvanshaj.com/CloseLoop/" target="_blank" rel="noopener" class="primary-link">Documentation &amp; architecture →</a>
+          <a href="https://github.com/dakshvanshaj/crm-followup-handoff" target="_blank" rel="noopener" class="repo-link">GitHub Repository</a>
+          <span class="status-note">Tested rules (<code>handoff ok</code>)</span>
+        </div>
+      </article>
+
+      <!-- 2. FirstReply -->
+      <article class="project-entry">
+        <div class="project-header-row">
+          <h3 class="project-title">
+            <a href="https://dakshvanshaj.com/FirstReply/" target="_blank" rel="noopener">FirstReply: Instant lead response without the quiet gap</a>
+          </h3>
+          <span class="project-category">Lead intake automation</span>
+        </div>
+        <p class="project-description">
+          The moment someone fills out a form, sends a message, or submits a Meta Lead Ad, they receive a personalized response in seconds. The sales owner is notified immediately, the interaction is logged, and a morning digest highlights anyone needing human attention.
+        </p>
+
+        <div class="flow-strip">
+          <span class="flow-label">Trigger</span>
+          <span class="flow-badge">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="#262627" aria-hidden="true"><path d="M15.502 13.035c-.5 0-.756-.411-.756-.917 0-.505.252-.894.756-.894.513 0 .756.407.756.894-.004.515-.261.917-.756.917Zm-4.888-1.81c.292 0 .414.17.414.317 0 .357-.365.514-1.126.536 0-.442.253-.854.712-.854Zm-3.241 1.81c-.473 0-.67-.384-.67-.917 0-.527.202-.894.67-.894.477 0 .702.38.702.894 0 .537-.234.917-.702.917Zm-3.997-2.334h-.738l1.224 2.808c-.234.519-.36.648-.522.648-.171 0-.333-.138-.45-.259l-.324.43c.22.232.522.366.832.366.387 0 .685-.224.856-.626l1.413-3.371h-.725l-.738 2.012-.828-2.008Zm19.553.523c.36 0 .432.246.432.823v1.516H24v-1.914c0-.689-.473-.988-.91-.988-.386 0-.742.241-.94.688a.901.901 0 0 0-.891-.688c-.365 0-.73.232-.927.666v-.626h-.64v2.857h.64v-1.22c0-.617.324-1.114.765-1.114.36 0 .427.246.427.823v1.516h.64l-.005-1.225c0-.617.329-1.114.77-1.114Zm-5.1-.523h-.324v2.857h.639v-1.095c0-.693.306-1.163.76-1.163.118 0 .217.005.325.05l.099-.676c-.081-.009-.153-.018-.225-.018-.45 0-.774.309-.964.707V10.7h-.31Zm-2.327-.045c-.846 0-1.418.644-1.418 1.458 0 .845.58 1.475 1.418 1.475.85 0 1.431-.648 1.431-1.475-.004-.818-.594-1.458-1.431-1.458Zm-4.852 2.38c-.333 0-.581-.17-.685-.515.847-.036 1.675-.242 1.675-.988 0-.43-.423-.872-1.03-.872-.82 0-1.374.666-1.374 1.457 0 .828.545 1.476 1.36 1.476.567 0 .927-.228 1.21-.559l-.31-.42c-.329.335-.531.42-.846.42Zm-3.151-2.38c-.324 0-.648.188-.774.483v-.438h-.64v3.98h.64v-1.422c.135.205.445.34.72.34.85 0 1.3-.631 1.3-1.48-.004-.841-.445-1.463-1.246-1.463Zm-4.483-1.1H0v.622h1.18v3.38h.67v-3.38h1.166v-.622Zm9.502 1.145h-.383v.572h.383v2.285h.639v-2.285h.621v-.572h-.621v-.447c0-.286.117-.385.382-.385.1 0 .19.027.311.068l.144-.537c-.117-.067-.351-.094-.504-.094-.612 0-.972.367-.972 1.002v.393Z"/></svg>
+            Typeform
+          </span>
+          <span class="flow-badge">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="#0467DF" aria-hidden="true"><path d="M6.915 4.03c-1.968 0-3.683 1.28-4.871 3.113C.704 9.208 0 11.883 0 14.449c0 .706.07 1.369.21 1.973a6.624 6.624 0 0 0 .265.86 5.297 5.297 0 0 0 .371.761c.696 1.159 1.818 1.927 3.593 1.927 1.497 0 2.633-.671 3.965-2.444.76-1.012 1.144-1.626 2.663-4.32l.756-1.339.186-.325c.061.1.121.196.183.3l2.152 3.595c.724 1.21 1.665 2.556 2.47 3.314 1.046.987 1.992 1.22 3.06 1.22 1.075 0 1.876-.355 2.455-.843a3.743 3.743 0 0 0 .81-.973c.542-.939.861-2.127.861-3.745 0-2.72-.681-5.357-2.084-7.45-1.282-1.912-2.957-2.93-4.716-2.93-1.047 0-2.088.467-3.053 1.308-.652.57-1.257 1.29-1.82 2.05-.69-.875-1.335-1.547-1.958-2.056-1.182-.966-2.315-1.303-3.454-1.303zm10.16 2.053c1.147 0 2.188.758 2.992 1.999 1.132 1.748 1.647 4.195 1.647 6.4 0 1.548-.368 2.9-1.839 2.9-.58 0-1.027-.23-1.664-1.004-.496-.601-1.343-1.878-2.832-4.358l-.617-1.028a44.908 44.908 0 0 0-1.255-1.98c.07-.109.141-.224.211-.327 1.12-1.667 2.118-2.602 3.358-2.602zm-10.201.553c1.265 0 2.058.791 2.675 1.446.307.327.737.871 1.234 1.579l-1.02 1.566c-.757 1.163-1.882 3.017-2.837 4.338-1.191 1.649-1.81 1.817-2.486 1.817-.524 0-1.038-.237-1.383-.794-.263-.426-.464-1.13-.464-2.046 0-2.221.63-4.535 1.66-6.088.454-.687.964-1.226 1.533-1.533a2.264 2.264 0 0 1 1.088-.285z"/></svg>
+            Meta Ads
+          </span>
+          <span class="flow-badge">WhatsApp</span>
+          <span class="flow-arrow">→</span>
+          <span class="flow-label">Action</span>
+          <span class="flow-badge">Instant personalized reply</span>
+          <span class="flow-arrow">→</span>
+          <span class="flow-badge">Owner alert + Google Sheets</span>
+        </div>
+
+        <div class="project-links">
+          <a href="https://dakshvanshaj.com/FirstReply/" target="_blank" rel="noopener" class="primary-link">Documentation &amp; architecture →</a>
+          <a href="https://github.com/dakshvanshaj/first-reply" target="_blank" rel="noopener" class="repo-link">GitHub Repository</a>
+          <span class="status-note">Tested rules (<code>respond ok</code>)</span>
+        </div>
+      </article>
+
+      <!-- 3. SnapTally -->
+      <article class="project-entry">
+        <div class="project-header-row">
+          <h3 class="project-title">
+            <a href="https://dakshvanshaj.com/SnapTally/" target="_blank" rel="noopener">SnapTally: Receipt and invoice extraction with arithmetic verification</a>
+          </h3>
+          <span class="project-category">Document parsing</span>
+        </div>
+        <p class="project-description">
+          A photo or PDF of an invoice is extracted using Claude Vision. Line items and tax calculations are checked automatically against the total, and flagged for human sign-off. If a re-scan changes the numbers, approval resets automatically.
+        </p>
+
+        <div class="flow-strip">
+          <span class="flow-label">Input</span>
+          <span class="flow-badge">Photo or PDF upload</span>
+          <span class="flow-arrow">→</span>
+          <span class="flow-label">Vision &amp; Logic</span>
+          <span class="flow-badge">Claude Vision extraction</span>
+          <span class="flow-badge">Arithmetic verification</span>
+          <span class="flow-arrow">→</span>
+          <span class="flow-human-gate">Human sign-off (resets on delta)</span>
+          <span class="flow-arrow">→</span>
+          <span class="flow-badge">Accounting sheet sync</span>
+        </div>
+
+        <div class="project-links">
+          <a href="https://dakshvanshaj.com/SnapTally/" target="_blank" rel="noopener" class="primary-link">Documentation &amp; architecture →</a>
+          <a href="https://github.com/dakshvanshaj/snap-tally" target="_blank" rel="noopener" class="repo-link">GitHub Repository</a>
+          <span class="status-note">Tested rules (<code>extract ok</code>)</span>
+        </div>
+      </article>
+
+      <!-- 4. RecapRelay -->
+      <article class="project-entry">
+        <div class="project-header-row">
+          <h3 class="project-title">
+            <a href="https://dakshvanshaj.com/RecapRelay/" target="_blank" rel="noopener">RecapRelay: Meeting notes to CRM action items</a>
+          </h3>
+          <span class="project-category">Call transcript processing</span>
+        </div>
+        <p class="project-description">
+          Processes meeting transcripts to extract key summaries, action items, and risk flags like budget pushback or competitor mentions. Logs directly to a sheet with weekly follow-up reminders. A human's "Done" status is immutable and survives re-processing.
+        </p>
+
+        <div class="flow-strip">
+          <span class="flow-label">Input</span>
+          <span class="flow-badge">Call transcript / recording</span>
+          <span class="flow-arrow">→</span>
+          <span class="flow-label">Extraction</span>
+          <span class="flow-badge">Summary, action items &amp; risk flags</span>
+          <span class="flow-arrow">→</span>
+          <span class="flow-badge">Meetings sheet sync</span>
+          <span class="flow-arrow">→</span>
+          <span class="flow-human-gate">Human "Done" mark protected</span>
+        </div>
+
+        <div class="project-links">
+          <a href="https://dakshvanshaj.com/RecapRelay/" target="_blank" rel="noopener" class="primary-link">Documentation &amp; architecture →</a>
+          <a href="https://github.com/dakshvanshaj/recap-relay" target="_blank" rel="noopener" class="repo-link">GitHub Repository</a>
+          <span class="status-note">Tested rules (<code>recap ok</code>)</span>
+        </div>
+      </article>
+    </section>
+
+    <!-- Flagship Showcase: Narada OS -->
+    <section id="narada">
+      <div class="section-header">
+        <h2 class="section-title">Flagship System</h2>
+      </div>
+
+      <div class="flagship-box">
+        <h3 class="flagship-title font-serif">Narada OS: Proactive ERP Intelligence</h3>
+        <p class="flagship-desc">
+          Most automations wait to be triggered. Narada OS sits on top of distributor ERPs (Odoo, SAP B1, NetSuite) or starts from plain CSV exports, running 95 diagnostics every night across inventory, cash, suppliers, and customers. It catches dead stock and impending stockouts before sales are lost. When an action is needed, it drafts the purchase order or supplier email for human sign-off, showing its exact formulas and source rows so nothing is ever asserted without proof.
+        </p>
+
+        <!-- Interactive Screenshot Viewer -->
+        <div class="gallery-tab-nav" role="tablist" aria-label="Narada OS Interface Screens">
+          <button class="gallery-tab-btn active" role="tab" aria-selected="true" onclick="showSlide('issues', this)">Nightly Diagnostics (Issues)</button>
+          <button class="gallery-tab-btn" role="tab" aria-selected="false" onclick="showSlide('reorder', this)">Reorder Proposals (Orders)</button>
+        </div>
+
+        <div class="gallery-viewport">
+          <img id="gallery-image" src="assets/narada/issues.png" alt="Narada OS Nightly Diagnostics and Issues" loading="lazy">
+        </div>
+
+        <div class="gallery-caption">
+          <span id="gallery-text">Works while nobody's asking: 197 open findings worth 03/day overnight with full source-row audit trail.</span>
+          <span>7,600+ commits · Directed with Claude Code</span>
+        </div>
+
+        <!-- Real 2-Minute Demo Video Player -->
+        <div class="video-box">
+          <div class="video-title">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+            2-Minute Live Product Walkthrough
+          </div>
+          <div class="video-container">
+            <video controls poster="assets/narada/issues.png" preload="metadata">
+              <source src="assets/video/launch.mp4" type="video/mp4">
+              Your browser does not support HTML5 video.
+            </video>
+          </div>
+        </div>
+
+        <div style="margin-top: 1.5rem; display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 0.75rem; font-size: 0.8125rem;">
+          <a href="https://naradaos.com" target="_blank" rel="noopener" class="btn-secondary" style="font-size: 0.8125rem;">
+            Visit naradaos.com →
+          </a>
+          <span style="color: var(--text-tertiary); font-style: italic;">
+            Demonstrates proactive agent architecture for operations.
           </span>
         </div>
       </div>
-    </div>
-    
-      
-    
-    
-    
-    
-    
-  </nav>
-  
-</header>
-    
-    <div class="md-container" data-md-component="container">
-      
-      
-        
-          
-        
-      
-      <main class="md-main" data-md-component="main">
-        <div class="md-main__inner md-grid">
-          
-            
-              
-                
-              
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
+    </section>
 
+    <!-- Technical & AI Case Studies -->
+    <section id="case-studies">
+      <div class="section-header">
+        <h2 class="section-title">Case Studies</h2>
+      </div>
 
-
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
-  <label class="md-nav__title" for="__drawer">
-    <a href="." title="Daksh Vanshaj" class="md-nav__button md-logo" aria-label="Daksh Vanshaj" data-md-component="logo">
-      
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
-
-    </a>
-    Daksh Vanshaj
-  </label>
-  
-  <ul class="md-nav__list" data-md-scrollfix>
-    
-      
-      
-  
-  
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="." class="md-nav__link md-nav__link--active">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Home
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-      
-    </li>
-  
-
-    
-  </ul>
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-            
-              
-                
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-          
-          
-            <div class="md-content" data-md-component="content">
-              
-              <article class="md-content__inner md-typeset">
-                
-                  
-  
-
-
-
-
-<h1 id="daksh-vanshaj">Daksh Vanshaj</h1>
-<p>Data science and AI.</p>
-<p><a href="https://github.com/dakshvanshaj">GitHub</a> · <a href="https://www.linkedin.com/in/daksh-vanshaj/">LinkedIn</a></p>
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-  
-
-
-
-                
-              </article>
+      <div class="case-studies-grid">
+        <!-- Straight Answer Agent -->
+        <div class="case-study-card">
+          <div>
+            <h3 class="case-study-title font-serif">Straight Answer Agent</h3>
+            <p class="case-study-desc">
+              The tool-use engine behind Narada OS: a 42-tool registry (34 read-only, 8 propose-only drafts), prompt-injection fencing, tenant-isolated memory, and a strict cite-or-omit trust layer that prevents hallucinated numbers.
+            </p>
+          </div>
+          <div>
+            <div style="font-size: 0.75rem; color: var(--text-tertiary); margin-bottom: 0.75rem;">
+              Proprietary production source not published · Case study and demo video available.
             </div>
-          
-          
-<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+            <a href="https://dakshvanshaj.com/straight-answer-agent/" target="_blank" rel="noopener" class="btn-secondary" style="font-size: 0.8125rem;">
+              Read architecture case study →
+            </a>
+          </div>
         </div>
-        
-      </main>
-      
-        <footer class="md-footer">
-  
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-copyright">
-  
-  
-    Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs
-    </a>
-  
-</div>
-      
-    </div>
+
+        <!-- StoreCast -->
+        <div class="case-study-card">
+          <div>
+            <h3 class="case-study-title font-serif">StoreCast</h3>
+            <p class="case-study-desc">
+              Medallion-architecture (PySpark, Polars, DuckDB) retail forecasting pipeline across a 45-store regional pilot. Reduces baseline error from 11.85% to 7.76% WMAPE (XGBoost + Optuna), tracked via MLflow and DVC.
+            </p>
+          </div>
+          <div>
+            <div style="font-size: 0.75rem; color: var(--text-tertiary); margin-bottom: 0.75rem;">
+              Built on public retail data · 0.5M figure is a simulated projection from error reduction.
+            </div>
+            <a href="https://dakshvanshaj.com/StoreCast/" target="_blank" rel="noopener" class="btn-secondary" style="font-size: 0.8125rem;">
+              View forecasting pipeline →
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Supporting Mention: flights MLOps -->
+      <div style="margin-top: 1.5rem; padding: 1rem 1.25rem; background-color: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 6px; font-size: 0.8125rem; display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.5rem;">
+        <div>
+          <span style="font-weight: 600; color: var(--text-primary);">flights-price-prediction-mlops:</span>
+          <span style="color: var(--text-secondary);">End-to-end MLOps pipeline featuring DVC, MLflow tracking, automated CI/CD, and Cloud Run deployment.</span>
+        </div>
+        <a href="https://github.com/dakshvanshaj/flights-price-prediction-mlops" target="_blank" rel="noopener" style="color: var(--accent-terracotta); font-weight: 500;">
+          GitHub →
+        </a>
+      </div>
+    </section>
+
+    <!-- Services Offered -->
+    <section id="services">
+      <div class="section-header">
+        <h2 class="section-title">Services</h2>
+      </div>
+
+      <div class="services-list">
+        <div class="service-item">
+          <h3 class="service-heading">CRM to Ops Follow-up Automation</h3>
+          <p class="service-text">
+            When deals close, account owners get immediate tasks, business-day due dates, and alerts on WhatsApp, Slack, or email. Works out of the box with HubSpot, Pipedrive, Zoho, and GoHighLevel.
+          </p>
+        </div>
+
+        <div class="service-item">
+          <h3 class="service-heading">Document &amp; Invoice Extraction</h3>
+          <p class="service-text">
+            Turn messy PDFs and receipt photos into structured data with automated arithmetic cross-checking and a quick human review checkpoint before reaching accounting.
+          </p>
+        </div>
+
+        <div class="service-item">
+          <h3 class="service-heading">AI Agents Over Private Business Data</h3>
+          <p class="service-text">
+            Specialized chat and workflow agents that query verified lookups only. Drafts purchase orders, supplier messages, or operational changes for human sign-off without ever executing autonomously.
+          </p>
+        </div>
+
+        <div class="service-item">
+          <h3 class="service-heading">Custom Ops Tools &amp; Internal Automations</h3>
+          <p class="service-text">
+            Whatever operational gap needs closing: custom data pipelines, ERP synchronization, automated reconciliation, and bespoke internal tools built with Claude Code, n8n, Python, and SQL.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Daksh Vanshaj -->
+    <section id="about">
+      <div class="section-header">
+        <h2 class="section-title">About Daksh Vanshaj</h2>
+      </div>
+
+      <div class="about-layout">
+        <div class="about-text">
+          <p>
+            I specialize in turning operational headaches like messy ERP exports, broken CRM handoffs, and manual spreadsheets into working systems using Claude Code, n8n, Python, and SQL.
+          </p>
+          <p>
+            I build end-to-end, from the data pipeline to the AI layer: input validation, error handling, a human-approval step before anything goes out, and documentation someone else could follow. As founder of Narada OS I built a full operations platform solo; day to day I bring that same systems thinking to smaller builds, including CRM automations, internal tools, websites, and data analysis.
+          </p>
+          <p style="font-size: 0.875rem; color: var(--text-tertiary); font-style: italic;">
+            "I direct the architecture and product decisions, Claude Code implements it, and I review every output."
+          </p>
+
+          <div class="skills-strip">
+            <span class="skill-tag">Claude Code</span>
+            <span class="skill-tag">n8n</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">SQL / PostgreSQL</span>
+            <span class="skill-tag">REST APIs &amp; Webhooks</span>
+            <span class="skill-tag">OAuth</span>
+            <span class="skill-tag">Google Sheets / Apps Script</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">FastAPI</span>
+            <span class="skill-tag">Workflow Automation</span>
+            <span class="skill-tag">Data Pipelines</span>
+          </div>
+        </div>
+
+        <div class="about-aside">
+          <!-- Connect & Profiles -->
+          <div class="connect-card">
+            <div class="connect-heading">Profiles</div>
+            <div class="connect-links-list">
+              <a href="https://www.linkedin.com/in/daksh-vanshaj/" target="_blank" rel="noopener" class="connect-link-item" aria-label="LinkedIn: Daksh Vanshaj">
+                <span class="connect-link-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="#0A66C2" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </span>
+                <div class="connect-link-content">
+                  <span class="connect-link-title">Daksh Vanshaj</span>
+                  <span class="connect-link-subtitle">linkedin.com/in/daksh-vanshaj</span>
+                </div>
+                <span class="connect-link-arrow">↗</span>
+              </a>
+
+              <a href="https://github.com/dakshvanshaj" target="_blank" rel="noopener" class="connect-link-item" aria-label="GitHub: dakshvanshaj">
+                <span class="connect-link-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                </span>
+                <div class="connect-link-content">
+                  <span class="connect-link-title">dakshvanshaj</span>
+                  <span class="connect-link-subtitle">github.com/dakshvanshaj</span>
+                </div>
+                <span class="connect-link-arrow">↗</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Verified Credentials -->
+          <div class="credentials-box">
+            <div class="credentials-heading">Education &amp; Training</div>
+            <div class="credential-item">
+              <div class="credential-degree">MS Computer Science (AI/ML)</div>
+              <div class="credential-school">Woolf · 2024–2027 (in progress)</div>
+            </div>
+            <div class="credential-item">
+              <div class="credential-degree">Data Science Trainee</div>
+              <div class="credential-school">AlmaBetter · 2025–2026</div>
+            </div>
+            <div class="credential-item">
+              <div class="credential-degree">BSc (PCM)</div>
+              <div class="credential-school">WRS Govt. College, Dehri · 2021–2024</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dedicated Contact Section -->
+    <section id="contact">
+      <div class="section-header">
+        <h2 class="section-title">Contact</h2>
+      </div>
+
+      <div class="contact-box">
+        <h3 class="contact-title font-serif">Let's build something dependable</h3>
+        <p class="contact-desc">
+          Whether you have broken CRM handoffs, repetitive spreadsheet routines, or need a custom internal agent with human approval safeguards, reach out directly.
+        </p>
+
+        <div class="contact-actions">
+          <a href="mailto:davevanshaj55646@gmail.com" class="btn-primary" style="font-size: 0.9375rem; padding: 0.75rem 1.25rem;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            davevanshaj55646@gmail.com
+          </a>
+          <a href="https://linkedin.com/in/daksh-vanshaj" target="_blank" rel="noopener" class="btn-secondary" style="font-size: 0.9375rem; padding: 0.75rem 1.25rem;">
+            LinkedIn ↗
+          </a>
+          <a href="https://github.com/dakshvanshaj" target="_blank" rel="noopener" class="btn-secondary" style="font-size: 0.9375rem; padding: 0.75rem 1.25rem;">
+            GitHub ↗
+          </a>
+        </div>
+
+        <div class="contact-meta">
+          <span>Based in India · Open to remote contracts &amp; full-time roles</span>
+          <span>Fast response time (usually within 24 hours)</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div>
+        © 2026 Daksh Vanshaj · India
+      </div>
+      <ul class="footer-links">
+        <li><a href="mailto:davevanshaj55646@gmail.com">Email</a></li>
+        <li><a href="https://linkedin.com/in/daksh-vanshaj" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://github.com/dakshvanshaj" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="assets/resume/Daksh_Vanshaj_AI_Automation_Engineer.pdf" download>Resume</a></li>
+      </ul>
+    </footer>
+
   </div>
-</footer>
-      
-    </div>
-    <div class="md-dialog" data-md-component="dialog">
-      <div class="md-dialog__inner md-typeset"></div>
-    </div>
-    
-    
-    
-      
-      
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": [], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
-    
-    
-      <script src="assets/javascripts/bundle.d7400e89.min.js"></script>
-      
-    
-  </body>
+
+  <!-- Interactive Gallery Script for Narada OS -->
+  <script>
+    const slides = {
+      'issues': {
+        src: 'assets/narada/issues.png',
+        alt: 'Narada OS Nightly Diagnostics and Issues',
+        desc: "Works while nobody's asking: 197 open findings worth 03/day overnight with full source-row audit trail."
+      },
+      'reorder': {
+        src: 'assets/narada/reorder.png',
+        alt: 'Narada OS Reorder Proposals',
+        desc: 'Proposes, never executes: 14 lines flagged for human review; nothing is ordered until human sign-off.'
+      }
+    };
+
+    function showSlide(key, btn) {
+      const data = slides[key];
+      if (!data) return;
+
+      const img = document.getElementById('gallery-image');
+      const text = document.getElementById('gallery-text');
+
+      img.style.opacity = '0.4';
+      setTimeout(() => {
+        img.src = data.src;
+        img.alt = data.alt;
+        text.textContent = data.desc;
+        img.style.opacity = '1';
+      }, 120);
+
+      document.querySelectorAll('.gallery-tab-btn').forEach(b => {
+        b.classList.remove('active');
+        b.setAttribute('aria-selected', 'false');
+      });
+      btn.classList.add('active');
+      btn.setAttribute('aria-selected', 'true');
+    }
+  </script>
+</body>
 </html>
